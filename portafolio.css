@@ -5,7 +5,9 @@ body {
     background-size: cover; 
     background-color: rgba(241, 222, 222, 0.395); 
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .navbar {
     background-color: rgb(17, 17, 29);
     color: white;
@@ -13,8 +15,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     width: 100%;
+    /* position: fixed; */
     z-index: 1000; 
 }
 
@@ -96,7 +98,7 @@ section {
 }
 
 .project img:hover {
-    transform: scale(1.5); 
+    transform: scale(1.1); 
     border-radius: 5px; 
 }
 
